@@ -1,0 +1,32 @@
+{
+  "49563974-0403-46d9-877b-ed38f2fc9974": {
+    "url": "https://jivedemo-slicesoftware.jiveon.com/api/jivelinks/v1/tiles/1383/data",
+    "config": {
+      "parent": "https://jivedemo-slicesoftware.jiveon.com/api/core/v3/places/2135",
+      "startSequence": "23"
+    },
+    "name": "sampletile-carousel",
+    "accessToken": "e12ij1uhcbexvt630s020gkgu9u3g9jwcqr41ans.t",
+    "expiresIn": "172799",
+    "refreshToken": "3f5ia0b0epybulw7gqf7aem1qwqop2ovq4nj7mji.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1383",
+    "guid": "47163e0b-5a40-4df9-8499-c02cc6a1f326_1383",
+    "jiveCommunity": "jivedemo-slicesoftware.jiveon.com",
+    "id": "49563974-0403-46d9-877b-ed38f2fc9974"
+  },
+  "7f97c0ff-567b-4667-95ae-38a985e270fc": {
+    "url": "https://jivedemo-slicesoftware.jiveon.com/api/jivelinks/v1/tiles/1384/data",
+    "config": {
+      "parent": "https://jivedemo-slicesoftware.jiveon.com/api/core/v3/places/2139",
+      "startSequence": "32"
+    },
+    "name": "sampletile-carousel",
+    "accessToken": "beek1snbph8voa8yx2qgx8whb9ch77g5bb192ng0.t",
+    "expiresIn": "172799",
+    "refreshToken": "j1xawrvo5f435lia3a98b4l769evir3vij92qp9y.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1384",
+    "guid": "47163e0b-5a40-4df9-8499-c02cc6a1f326_1384",
+    "jiveCommunity": "jivedemo-slicesoftware.jiveon.com",
+    "id": "7f97c0ff-567b-4667-95ae-38a985e270fc"
+  }
+}

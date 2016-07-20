@@ -1,0 +1,17 @@
+{
+    "package_version": "1.0",
+    "id": "3a40a1e2-8bec-4a8c-879e-92f3dbe5ae90",
+    "type": "client-app",
+    "name": "sampletile-carousel",
+    "description": "Description for sampletile-carousel",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2016-07-14T22:18:02.897Z",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "service_url": "https://05adce0c.ngrok.io",
+    "redirect_url": "%serviceURL%",
+    "releasedOn": "2016-07-14T22:18:02.897Z"
+}

@@ -1,0 +1,10 @@
+{
+  "http://localhost:8080": {
+    "jiveUrl": "http://localhost:8080",
+    "version": "post-samurai",
+    "tenantId": "68d9a1cf-e327-4a0e-974d-4dd010d3b5dc-dev",
+    "clientId": "ov3fdam73wkwtiqul07bczy54o5ktdl7.i",
+    "clientSecret": "dtmkcavy4l88mcej0kzjbocahqfm9yfi.s",
+    "jiveCommunity": "localhost:8080"
+  }
+}

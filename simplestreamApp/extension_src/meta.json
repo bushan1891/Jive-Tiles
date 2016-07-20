@@ -1,0 +1,15 @@
+{
+    "package_version": "1.0",
+    "id": "9f4d1191-4f7c-13ca-273f-8785a416a9e5",
+    "type": "client-app",
+    "name": "My Activity Stream Integration app",
+    "description": "This is my activity stream integration app",
+    "minimum_version": "0000",
+    "icon_16": "icon-16.png",
+    "icon_48": "icon-48.png",
+    "icon_128": "icon-128.png",
+    "released_on": "2013-03-08T19:11:11.234Z",
+    "service_url": "http:",
+    "redirect_url": "%serviceURL%",
+    "packageVersion": "1.0"
+}

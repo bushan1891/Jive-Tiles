@@ -1,0 +1,44 @@
+{
+    "sampleData": {
+        "title": "sampletile-carousel",
+        "contents": [
+            {
+                "titleText": "Jive Software - Carousel 1",
+                "titleLink": "http://developer.jivesoftware.com",
+                "image": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13584996_1153192918035860_6484145054112512893_o.jpg",
+                "imageURI": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13584996_1153192918035860_6484145054112512893_o.jpg",
+                "description": "Stay Cool"
+            },
+            {
+                "titleText": "Jive Software - Carousel 2",
+                "titleLink": "https://community.jivesoftware.com/community/developer",
+                "image": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12646696_1059400397415113_7514092999118023978_o.jpg",
+                "imageURI": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12646696_1059400397415113_7514092999118023978_o.jpg",
+                "description": "Old School Carousel"
+            },
+            {
+                "titleText": "Jive Software - Carousel 3",
+                "titleLink": "https://community.jivesoftware.com/community/developer",
+                "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11800005_970595246295629_208946994346608696_n.jpg?oh=2c9c6b597afaded3ca18839e4f10f8c2&oe=57F65B00",
+                "imageURI": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11800005_970595246295629_208946994346608696_n.jpg?oh=2c9c6b597afaded3ca18839e4f10f8c2&oe=57F65B00",
+                "description": "Bushan rocks"
+            }
+        ],
+        "config": {
+            "autoplay": true,
+            "speed": "medium",
+            "previewPane": true,
+            "transition": "fade"
+        }
+    },
+    "displayName": "sampletile-carousel",
+    "name": "sampletile-carousel",
+    "description": "sampletile-carousel",
+    "style": "CAROUSEL",
+    "icons": {
+        "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+        "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+        "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+      "config": "/sampletile-carousel/configuration.html"
+}

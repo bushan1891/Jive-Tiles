@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "7c09378c-4b1d-49e7-a126-997a4c6013ad",
+    "uuid": "7c09378c-4b1d-49e7-a126-997a4c6013ad",
+    "name": "example-webhooks",
+    "description": "Description for example-webhooks",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2016-03-25T19:32:24.414Z"
+  }
+}

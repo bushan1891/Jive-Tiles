@@ -1,0 +1,10 @@
+{
+  "http://127.0.0.1:8080": {
+    "jiveUrl": "http://127.0.0.1:8080",
+    "version": "post-samurai",
+    "tenantId": "68d9a1cf-e327-4a0e-974d-4dd010d3b5dc-dev",
+    "clientId": "6dct374unzau4xlx3oc8uvsztvaxsv3c.i",
+    "clientSecret": "lfeqgixnqvld81i7x2zp559ri8otqvnb.s",
+    "jiveCommunity": "127.0.0.1:8080"
+  }
+}

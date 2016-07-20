@@ -1,0 +1,23 @@
+{
+  "4b302a11-d21e-4241-82f8-3873e2b0158f": {
+    "displayName": "t-internal",
+    "name": "t-internal",
+    "description": "t-internal",
+    "style": "CUSTOM_VIEW",
+    "displayWidth": "ALL",
+    "dataProviderKey": "internal",
+    "pageTypes": [
+      "PLACE",
+      "USER"
+    ],
+    "icons": {
+      "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+      "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+      "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+    "config": "/t-internal/configuration.html",
+    "view": "/t-internal/view.html",
+    "id": "4b302a11-d21e-4241-82f8-3873e2b0158f",
+    "definitionDirName": "t-internal"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "https://jivedemo-slicesoftware.jiveon.com": {
+    "jiveUrl": "https://jivedemo-slicesoftware.jiveon.com",
+    "version": "post-samurai",
+    "tenantId": "47163e0b-5a40-4df9-8499-c02cc6a1f326",
+    "clientId": "872i56874ukjcw7q6vdqqlds87fw31n9.i",
+    "clientSecret": "8quf7xn2hul977c3xq1nfkvatk1e41vb.s",
+    "jiveCommunity": "jivedemo-slicesoftware.jiveon.com"
+  }
+}

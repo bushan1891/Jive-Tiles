@@ -1,0 +1,39 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "displayName": "My Activity Stream Integration app",
+            "name": "my-activity-stream-integration-app",
+            "description": "This is my activity stream integration app",
+            "style": "ACTIVITY",
+            "icons": {
+                "16": "icon-16.png",
+                "48": "icon-48.png"
+            },
+            "config": "/public/configuration.html?features=jq-1.11,core-v3,tile",
+            "transform": {
+                "script": "xform.js"
+            },
+            "pageTypes": [
+                "PLACE",
+                "MOBILE",
+                "NEWS"
+            ],
+            "categories": [
+                "other"
+            ],
+            "displayWidth": "ALL",
+            "i18n": "*"
+        }
+    ],
+    "osapps": [
+        {
+            "id": "10ff749b-b0ff-4a91-a23b-74a3683380e6",
+            "name": "StatusPage-ioActivity App_app-ext-object",
+            "appPath": "10ff749bb0ff4a91a23b74a3683380e6",
+            "url": "/public/apps/StatusPage-ioActivity App/app.xml"
+        }
+    ]
+}

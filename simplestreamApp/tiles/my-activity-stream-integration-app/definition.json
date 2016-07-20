@@ -1,0 +1,24 @@
+{
+	"displayName": "My Activity Stream Integration app",
+	"name": "my-activity-stream-integration-app",
+	"description": "This is my activity stream integration app",
+	"style": "ACTIVITY",
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png"
+	},
+	"config": "/public/configuration.html?features=jq-1.11,core-v3,tile",
+	"transform": {
+		"script": "xform.js"
+	},
+	"pageTypes": [
+		"PLACE",
+		"MOBILE",
+		"NEWS"
+	],
+	"categories": [
+		"other"
+	],
+	"displayWidth": "ALL",
+	"i18n": "*"
+}

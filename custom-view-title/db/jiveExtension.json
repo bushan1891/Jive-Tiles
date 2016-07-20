@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "13039c6f-5abf-4333-bc7d-e9e92d8f7bb9",
+    "uuid": "13039c6f-5abf-4333-bc7d-e9e92d8f7bb9",
+    "name": "nagendra-custom",
+    "description": "Description for nagendra-custom",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2016-07-15T05:16:53.299Z"
+  }
+}

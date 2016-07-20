@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "36ea733c-1097-44bf-bfb4-918dd537e3c2",
+    "uuid": "36ea733c-1097-44bf-bfb4-918dd537e3c2",
+    "name": "sampletile-carousel",
+    "description": "Description for sampletile-carousel",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2016-07-19T21:06:09.347Z"
+  }
+}

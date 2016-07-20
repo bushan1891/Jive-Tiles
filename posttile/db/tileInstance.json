@@ -1,0 +1,32 @@
+{
+  "62ba85b0-906a-47c8-9663-72f10c3a6535": {
+    "url": "http://localhost:8080/api/jivelinks/v1/tiles/1140/data",
+    "config": {
+      "parent": "http://localhost:8080/api/core/v3/places/1025",
+      "startSequence": "4"
+    },
+    "name": "sampletile-list",
+    "accessToken": "3evwsjywgzlld7wxt8vg45uq3c5mbzj6pt3jjx8a.t",
+    "expiresIn": "172799",
+    "refreshToken": "1y87p9awt32pycale9oephkua7ieori986e4yr33.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1140",
+    "guid": "68d9a1cf-e327-4a0e-974d-4dd010d3b5dc-dev_1140",
+    "jiveCommunity": "localhost:8080",
+    "id": "62ba85b0-906a-47c8-9663-72f10c3a6535"
+  },
+  "9deb795c-5746-43a5-92b1-2ea643f986bc": {
+    "url": "http://localhost:8080/api/jivelinks/v1/tiles/1141/data",
+    "config": {
+      "parent": "http://localhost:8080/api/core/v3/places/1025",
+      "startSequence": "4"
+    },
+    "name": "sampletile-list",
+    "accessToken": "425bx4g3rklx13it9bvhk9x0catr3j4p5uuznero.t",
+    "expiresIn": "172799",
+    "refreshToken": "hkmkg4fv4atajd9gdvtmewd4jwnz89jqmkan1pab.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1141",
+    "guid": "68d9a1cf-e327-4a0e-974d-4dd010d3b5dc-dev_1141",
+    "jiveCommunity": "localhost:8080",
+    "id": "9deb795c-5746-43a5-92b1-2ea643f986bc"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "jiveExtension": {
+    "id": "9f4d1191-4f7c-13ca-273f-8785a416a9e5",
+    "uuid": "9f4d1191-4f7c-13ca-273f-8785a416a9e5",
+    "name": "My Activity Stream Integration app",
+    "type": "client-app",
+    "description": "This is my activity stream integration app",
+    "packageVersion": "1.0",
+    "minimum_version": "0000",
+    "icon_16": "icon-16.png",
+    "icon_48": "icon-48.png",
+    "icon_128": "icon-128.png"
+  }
+}

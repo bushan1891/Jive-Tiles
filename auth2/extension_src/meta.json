@@ -1,0 +1,16 @@
+{
+    "package_version": "1.0",
+    "id": "9d761a0a-3405-4815-bd43-b73db1d9ae38",
+    "type": "client-app",
+    "name": "oauth2-client",
+    "description": "Description for oauth2-client",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2016-03-29T21:18:23.746Z",
+    "service_url": "http://localhost",
+    "redirect_url": "REPLACE_ME_WITH_OAUTH_AUTHORIZE_URL",
+    "releasedOn": "2016-03-29T21:18:23.746Z",
+    "redirectURL": "REPLACE_ME_WITH_OAUTH_AUTHORIZE_URL"
+}

@@ -1,0 +1,23 @@
+{
+  "c79b15af-1b23-4482-8623-4acecc369ee5": {
+    "displayName": "nagendra-custom",
+    "name": "nagendra-custom",
+    "description": "nagendra-custom",
+    "style": "CUSTOM_VIEW",
+    "displayWidth": "ALL",
+    "dataProviderKey": "internal",
+    "pageTypes": [
+      "PLACE",
+      "USER"
+    ],
+    "icons": {
+      "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+      "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+      "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+    "config": "/nagendra-custom/configuration.html",
+    "view": "/nagendra-custom/view.html?feature=corev3",
+    "id": "c79b15af-1b23-4482-8623-4acecc369ee5",
+    "definitionDirName": "nagendra-custom"
+  }
+}

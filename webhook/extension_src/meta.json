@@ -1,0 +1,17 @@
+{
+    "package_version": "1.0",
+    "id": "7c09378c-4b1d-49e7-a126-997a4c6013ad",
+    "type": "client-app",
+    "name": "example-webhooks",
+    "description": "Description for example-webhooks",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2016-03-25T19:32:24.414Z",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "service_url": "http://127.0.0.1:8090",
+    "redirect_url": "%serviceURL%",
+    "releasedOn": "2016-03-25T19:32:24.414Z"
+}

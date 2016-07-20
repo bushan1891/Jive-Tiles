@@ -1,0 +1,17 @@
+{
+    "package_version": "1.0",
+    "id": "13039c6f-5abf-4333-bc7d-e9e92d8f7bb9",
+    "type": "client-app",
+    "name": "nagendra-custom",
+    "description": "Description for nagendra-custom",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2016-07-15T05:16:53.299Z",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "service_url": "https://55c78bb3.ngrok.io",
+    "redirect_url": "%serviceURL%",
+    "releasedOn": "2016-07-15T05:16:53.299Z"
+}

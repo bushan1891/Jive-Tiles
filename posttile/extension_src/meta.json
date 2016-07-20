@@ -1,0 +1,17 @@
+{
+    "package_version": "1.0",
+    "id": "0423f28d-ecec-45e5-bd8b-dda84ab4f06c",
+    "type": "client-app",
+    "name": "sampletile-list",
+    "description": "Description for sampletile-list",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2016-03-26T16:25:50.634Z",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "service_url": "http://127.0.0.1:8090",
+    "redirect_url": "%serviceURL%",
+    "releasedOn": "2016-03-26T16:25:50.634Z"
+}

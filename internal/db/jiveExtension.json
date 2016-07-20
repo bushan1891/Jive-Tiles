@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "aad65671-cc29-4902-8215-c67531e82b77",
+    "uuid": "aad65671-cc29-4902-8215-c67531e82b77",
+    "name": "t-internal",
+    "description": "Description for t-internal",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2016-03-14T21:40:24.688Z"
+  }
+}

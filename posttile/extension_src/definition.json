@@ -1,0 +1,58 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "sampleData": {
+                "title": "Test-Post-Tile",
+                "contents": [
+                    {
+                        "text": "Initial text will change "
+                    }
+                ],
+                "config": {
+                    "listStyle": "contentList"
+                }
+            },
+            "displayName": "POST TILE",
+            "name": "sampletile-list",
+            "description": "Tile post",
+            "style": "LIST",
+            "icons": {
+                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+            },
+            "action": "http://127.0.0.1:8090/sampletile-list/action",
+            "config": "http://127.0.0.1:8090/sampletile-list/configure",
+            "unregister": "http://127.0.0.1:8090/unregister",
+            "register": "http://127.0.0.1:8090/registration"
+        },
+        {
+            "sampleData": {
+                "title": "Test-Post-Tile",
+                "contents": [
+                    {
+                        "text": "Initial text will change "
+                    }
+                ],
+                "config": {
+                    "listStyle": "contentList"
+                }
+            },
+            "displayName": "POST TILE",
+            "name": "POST TILE",
+            "description": "Tile post",
+            "style": "LIST",
+            "icons": {
+                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+            },
+            "action": "http://127.0.0.1:8090/sampletile-list/action",
+            "unregister": "http://127.0.0.1:8090/unregister",
+            "register": "http://127.0.0.1:8090/registration"
+        }
+    ]
+}

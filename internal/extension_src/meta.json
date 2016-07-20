@@ -1,0 +1,15 @@
+{
+    "package_version": "1.0",
+    "id": "aad65671-cc29-4902-8215-c67531e82b77",
+    "type": "client-app",
+    "name": "t-internal",
+    "description": "Description for t-internal",
+    "minimum_version": "0080300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2016-03-14T21:40:24.688Z",
+    "service_url": "http://localhost",
+    "redirect_url": "%serviceURL%",
+    "releasedOn": "2016-03-14T21:40:24.688Z"
+}

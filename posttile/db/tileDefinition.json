@@ -1,0 +1,52 @@
+{
+  "4474aab5-b253-4f79-928b-bfe2933bd8a9": {
+    "sampleData": {
+      "title": "Test-Post-Tile",
+      "contents": [
+        {
+          "text": "Initial text will change "
+        }
+      ],
+      "config": {
+        "listStyle": "contentList"
+      }
+    },
+    "displayName": "POST TILE",
+    "name": "sampletile-list",
+    "description": "Tile post",
+    "style": "LIST",
+    "icons": {
+      "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+      "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+      "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+    "action": "/sampletile-list/action",
+    "id": "4474aab5-b253-4f79-928b-bfe2933bd8a9",
+    "definitionDirName": "sampletile-list"
+  },
+  "bc0aa8fc-6bea-4ebf-aada-f834e892712b": {
+    "sampleData": {
+      "title": "Test-Post-Tile",
+      "contents": [
+        {
+          "text": "Initial text will change "
+        }
+      ],
+      "config": {
+        "listStyle": "contentList"
+      }
+    },
+    "displayName": "POST TILE",
+    "name": "POST TILE",
+    "description": "Tile post",
+    "style": "LIST",
+    "icons": {
+      "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+      "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+      "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+    "action": "/sampletile-list/action",
+    "id": "bc0aa8fc-6bea-4ebf-aada-f834e892712b",
+    "definitionDirName": "sampletile-list"
+  }
+}
