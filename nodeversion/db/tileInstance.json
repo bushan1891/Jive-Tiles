@@ -1,0 +1,17 @@
+{
+  "090c3806-7b5b-4749-aa70-3f3a4578a3d0": {
+    "url": "https://jivedemo-slicesoftware.jiveon.com/api/jivelinks/v1/tiles/1423/data",
+    "config": {
+      "parent": "https://jivedemo-slicesoftware.jiveon.com/api/core/v3/places/2139",
+      "pushData": "bushan"
+    },
+    "name": "Bushan-custom-tile",
+    "accessToken": "1poja0mnueyh98cd4e3tcw852puy7k4zigz6einr.t",
+    "expiresIn": "172799",
+    "refreshToken": "7k0fugo08w19a7xyipdiw0w7dtna5c2xt314dwe8.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1423",
+    "guid": "47163e0b-5a40-4df9-8499-c02cc6a1f326_1423",
+    "jiveCommunity": "jivedemo-slicesoftware.jiveon.com",
+    "id": "090c3806-7b5b-4749-aa70-3f3a4578a3d0"
+  }
+}

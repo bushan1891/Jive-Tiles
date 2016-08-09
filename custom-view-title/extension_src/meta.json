@@ -11,7 +11,7 @@
     "released_on": "2016-07-15T05:16:53.299Z",
     "register_url": "%serviceURL%/jive/oauth/register",
     "unregister_url": "%serviceURL%/jive/oauth/unregister",
-    "service_url": "https://55c78bb3.ngrok.io",
+    "service_url": "https://jcs.ngrok.io",
     "redirect_url": "%serviceURL%",
     "releasedOn": "2016-07-15T05:16:53.299Z"
 }

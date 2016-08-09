@@ -16,6 +16,8 @@
 
 var jive = require("jive-sdk");
 var q = require('q');
+var appdir = require('app-root-path');
+var customservice = require(appdir+'/tiles/sampletile-carousel/backend/service/customservice.js');
 
 /**
  * Handles actually pushing data to the tile instance
@@ -33,41 +35,11 @@ console.log(count);
 //this below line fucked up
 var ran = Math.random();
 
-
-        return {
-            data: {
-                 "title": "bushan enabled :"+ ran,
-                 "contents": [
-            {
-                "titleText": "Jive Software - Carousel 1",
-                "titleLink": "http://developer.jivesoftware.com",
-                "image": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13584996_1153192918035860_6484145054112512893_o.jpg",
-                "imageURI": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13584996_1153192918035860_6484145054112512893_o.jpg",
-                "description": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
-            },
-            {
-                "titleText": "Jive Software - Carousel 2",
-                "titleLink": "https://community.jivesoftware.com/community/developer",
-                "image": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12646696_1059400397415113_7514092999118023978_o.jpg",
-                "imageURI": "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12646696_1059400397415113_7514092999118023978_o.jpg",
-                "description": "$$$$$$$$$$$$$$$$$$$$$$$$$"
-            },
-            {
-                "titleText": "Jive Software - Carousel 3",
-                "titleLink": "https://community.jivesoftware.com/community/developer",
-                "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11800005_970595246295629_208946994346608696_n.jpg?oh=2c9c6b597afaded3ca18839e4f10f8c2&oe=57F65B00",
-                "imageURI": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11800005_970595246295629_208946994346608696_n.jpg?oh=2c9c6b597afaded3ca18839e4f10f8c2&oe=57F65B00",
-                "description": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
-            }
-        ],
-                 "config": {
-                    "autoplay": true,
-                    "speed": "medium",
-                    "previewPane": true,
-                    "transition": "fade"
-                 }
-                }
-        };
+// get custom image url here 
+var cutomData = customservice.customData();
+console.log(cutomData);
+         return cutomData;
+        
     }
 
     var store = jive.service.persistence();
@@ -107,7 +79,7 @@ var pushData = function() {
         }
     });
     return deferred.promise;
-};
+};  
 
 /**
  * Schedules the tile update task to automatically fire every 10 seconds

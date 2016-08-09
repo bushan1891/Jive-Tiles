@@ -1,5 +1,5 @@
 {
-    "clientUrl": "https://55c78bb3.ngrok.io",
+    "clientUrl": "https://jcs.ngrok.io",
     "port": "8090",
     "development" : true,
 	"clientUrlExcludesPort": true,

@@ -1,0 +1,28 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "displayName": "FICO-UsernameFix",
+            "name": "FICO-UsernameFix",
+            "description": "Tile to fix the username issue",
+            "style": "CUSTOM_VIEW",
+            "displayWidth": "ALL",
+            "dataProviderKey": "internal",
+            "pageTypes": [
+                "PLACE",
+                "USER"
+            ],
+            "icons": {
+                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+            },
+            "config": "https://jcs.ngrok.io/my-tile/configuration.html?ts=1470710355012",
+            "view": "https://jcs.ngrok.io/my-tile/view.html?feature=corev3&ts=1470710355012",
+            "id": "d8ac57fe-e5cf-4d1b-986f-e594a17e72cd",
+            "definitionDirName": "my-tile"
+        }
+    ]
+}

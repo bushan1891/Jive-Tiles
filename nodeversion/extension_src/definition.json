@@ -1,0 +1,31 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "sampleData": {
+                "pushData": "Not yet initialized",
+                "pushCount": "-1"
+            },
+            "displayName": "Bushan-custom-tile",
+            "name": "Bushan-custom-tile",
+            "description": "sampletile-app-external",
+            "style": "CUSTOM_VIEW",
+            "displayWidth": "ALL",
+            "pageTypes": [
+                "PLACE",
+                "USER"
+            ],
+            "icons": {
+                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+            },
+            "config": "https://jcs.ngrok.io/sampletile-app-external/configuration.html",
+            "view": "https://jcs.ngrok.io/sampletile-app-external/view.html",
+            "unregister": "https://jcs.ngrok.io/unregister",
+            "register": "https://jcs.ngrok.io/registration"
+        }
+    ]
+}

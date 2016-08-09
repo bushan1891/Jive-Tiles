@@ -1,0 +1,16 @@
+{
+    "displayName" : "FICO-UsernameFix",
+    "name" : "FICO-UsernameFix",
+    "description" : "Tile to fix the username issue",
+    "style": "CUSTOM_VIEW",
+    "displayWidth" : "ALL",
+    "dataProviderKey": "internal",
+    "pageTypes" : [ "PLACE", "USER" ],
+    "icons": {
+        "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+        "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+        "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+    "config": "/my-tile/configuration.html",
+    "view": "/my-tile/view.html?feature=corev3"
+}

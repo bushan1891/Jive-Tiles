@@ -19,8 +19,10 @@
                 "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
                 "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
             },
-            "config": "https://55c78bb3.ngrok.io/nagendra-custom/configuration.html",
-            "view": "https://55c78bb3.ngrok.io/nagendra-custom/view.html?feature=corev3"
+            "config": "https://jcs.ngrok.io/nagendra-custom/configuration.html?ts=1470681600193",
+            "view": "https://jcs.ngrok.io/nagendra-custom/view.html?feature=corev3&ts=1470681600193",
+            "id": "530a2262-4515-41e4-9df1-3a93fc81fa55",
+            "definitionDirName": "nagendra-custom"
         }
     ]
 }

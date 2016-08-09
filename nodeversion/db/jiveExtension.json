@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "081aa167-1fc3-43e0-8de5-d77cfd99c4d7",
+    "uuid": "081aa167-1fc3-43e0-8de5-d77cfd99c4d7",
+    "name": "Bushan-custom-tile",
+    "description": "Description for sampletile-app-external",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2016-08-06T18:44:22.905Z"
+  }
+}

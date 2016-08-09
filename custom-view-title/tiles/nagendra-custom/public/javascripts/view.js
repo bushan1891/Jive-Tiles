@@ -1,4 +1,4 @@
-jive.tile.onOpen(function (config, options) {
+jive.tile.onOpen(function(config, options) {
     'use strict';
 
 
@@ -10,30 +10,25 @@ jive.tile.onOpen(function (config, options) {
     // update HTML with data pushed from service
     $("#data").text(config["pushData"]);
 
-    config["pushCount"] = 10;
-
     $("#count").text(config["pushCount"]);
 
     for (var i = 0; i < 1000; i++) {
-        setTimeout(function () {
+        $("#data").text(config["pushData"]).delay(1000);
         config["pushCount"] = i;
-            $("#count").text(config["pushCount"]);
-        }, 5000);
 
     }
-
-
-
-    // open social 
+     $('form').submit(function(){
+     console.log('form submited');
+     });
+    // open social
     osapi.jive.corev3.people.getViewer().execute(
-        function (response) {
-            $('#test').html("<pre>" + JSON.stringify(response) + "</pre>");
+        function(response) {
+            $('#data').html("<pre>" + JSON.stringify(response) + "</pre>");
+            console.log('called');
             gadgets.window.adjustHeight();
         }
     );
-    gadgets.window.adjustHeight();
-
-
+  
     $("#config_string").text(config["configString"]);
 
     console.log(config);

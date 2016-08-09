@@ -24,29 +24,38 @@
 var express = require('express'),
     http = require('http'),
     jive = require('jive-sdk');
+var appdir = require('app-root-path');
+var watch = require('node-watch');
 
 var app = express();
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Setup jive
 
-var failServer = function(reason) {
-    console.log('FATAL -', reason );
+var failServer = function (reason) {
+    console.log('FATAL -', reason);
     process.exit(-1);
 };
 
 var startServer = function () {
-    if ( !jive.service.role || jive.service.role.isHttp() ) {
-        var server = http.createServer(app).listen( app.get('port') || 8090, app.get('hostname') || undefined, function () {
-            console.log("Express server listening on " + server.address().address +':'+server.address().port);
+    if (!jive.service.role || jive.service.role.isHttp()) {
+        var server = http.createServer(app).listen(app.get('port') || 8090, app.get('hostname') || undefined, function () {
+            console.log("Express server listening on " + server.address().address + ':' + server.address().port);
         });
     }
 };
 
+// app watch for cahges in file 
+// One-liner for current directory, ignores .dotfiles
+// Initialize watcher.
+
+watch(__dirname, function (filename) {
+    console.log(filename, 'There is file change restart the instance !!!!!!');
+});
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Setting up your service
 
-//
+// 
 // Service startup sequence (Easy as 1-2-3!):
 //
 
@@ -54,13 +63,13 @@ var startServer = function () {
 // if one is not provided, it assumes that [app root]/jiveclientconfiguration.json file exists.
 jive.service.init(app)
 
-// 2. autowire all available definitions in /tiles; see explanation below.
-.then( function() { return jive.service.autowire() } )
+    // 2. autowire all available definitions in /tiles; see explanation below.
+    .then(function () { return jive.service.autowire() })
 
-// 3. start the service, which performs sanity checks such as clientId, clientSecret, and clientUrl defined.
-// if successful service start, call the start the http server function defined by you; otherwise call the
-// fail one
-.then( function() { return jive.service.start() } ).then( startServer, failServer );
+    // 3. start the service, which performs sanity checks such as clientId, clientSecret, and clientUrl defined.
+    // if successful service start, call the start the http server function defined by you; otherwise call the
+    // fail one
+    .then(function () { return jive.service.start() }).then(startServer, failServer);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Below is an explanation of each step in the above sequence successful.
